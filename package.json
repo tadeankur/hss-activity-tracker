@@ -1,7 +1,19 @@
 {
   "name": "hss-activity-tracker",
   "version": "0.1.0",
-  "private": true,
+  "version": "0.4.2",
+  "private": false,
+  "homepage": "/hssactivities",
+  "license": "MIT",
+  "main": "build/dist/index.js",
+  "files": [
+    "build/dist/"],
+  "lint-staged": {
+    "*.{js,ts,tsx,json,less,css,md}": [
+      "prettier --write",
+      "git add"
+    ]
+  },
   "dependencies": {
     "@craco/craco": "^5.6.4",
     "@testing-library/jest-dom": "^4.2.4",
