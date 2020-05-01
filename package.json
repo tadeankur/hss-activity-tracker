@@ -5,6 +5,9 @@
   "homepage": "/hssactivities",
   "license": "MIT",
   "main": "build/dist/index.js",
+  "engines": {
+    "node": "12.16.x"
+  },
   "lint-staged": {
     "*.{js,ts,tsx,json,less,css,md}": [
       "prettier --write",
