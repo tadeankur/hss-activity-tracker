@@ -1,9 +1,6 @@
 {
   "name": "hss-activity-tracker",
   "version": "0.4.2",
-  "engines": {
-    "node": "13.8.x"
-  },
   "private": false,
   "homepage": "/hssactivities",
   "license": "MIT",
