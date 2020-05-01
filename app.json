@@ -2,18 +2,12 @@
     "name": "hss-activity-tracker",
     "description": "",
     "scripts": {},
-    "env": {
-        "NPM_CONFIG_PRODUCTION": "false",
-        "REACT_APP_HODE_URL": {
-            "required": true
-        },
-        "REACT_APP_MOCK_ENABLED": {
-            "required": true
-        }
-    },
     "success_url": "/hssactivities/",
     "formation": {},
     "addons": [],
     "buildpacks": [],
-    "stack": "container"
+    "stack": "container",
+    "expo": {
+
+    }
 }
