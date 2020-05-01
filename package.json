@@ -21,14 +21,14 @@
     "react-scripts": "3.4.1",
     "typescript": "^3.8.3"
   },
-      "scripts": {
-        "start": "craco start",
-        "build": "craco build",
-        "test": "craco test",
-        "test-bail": "craco test --watchAll=false --bail",
-        "eject": "react-scripts eject",
-        "build-library": "tsc -p ./tsconfig.library.json"
-    },
+  "scripts": {
+    "start": "craco start",
+    "build": "craco build",
+    "test": "craco test",
+    "test-bail": "craco test --watchAll=false --bail",
+    "eject": "react-scripts eject",
+    "build-library": "tsc -p ./tsconfig.library.json"
+  },
   "eslintConfig": {
     "extends": "react-app"
   },
