@@ -6,7 +6,7 @@
   "license": "MIT",
   "main": "build/dist/index.js",
   "engines": {
-    "node": "12.16.x"
+    "node": "13.8.x"
   },
   "lint-staged": {
     "*.{js,ts,tsx,json,less,css,md}": [
