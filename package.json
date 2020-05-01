@@ -5,6 +5,9 @@
   "homepage": "/hssactivities",
   "license": "MIT",
   "main": "build/dist/index.js",
+  "files": [
+    "build/dist/"
+  ],
   "engines": {
     "node": "13.8.x",
     "npm": "6.13.x"
